@@ -72,7 +72,7 @@ public class UserServlet extends HttpServlet {
             throw new ServletException(ex);
         }
     }
-
+//1234
     private void listUser(HttpServletRequest request, HttpServletResponse response)
             throws SQLException, IOException, ServletException {
         String name =request.getParameter("name");

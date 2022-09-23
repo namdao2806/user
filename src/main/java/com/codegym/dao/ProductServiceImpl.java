@@ -60,7 +60,7 @@ public class ProductServiceImpl implements ProductService{
         }
         return product;
     }
-
+//abcd
     @Override
     public List<Product> selectAll() {
         // using try-with-resources to avoid closing resources (boiler plate code)
